@@ -614,7 +614,7 @@ if chek_qtde:
             fig.update_traces(
                 textposition='outside',
                 texttemplate='%{text}',
-                textfont=dict(size=12, color='black'))
+                textfont=dict(size=12, color='white'))
 
             fig.update_layout(yaxis_title='Quantidade')
 
