@@ -23,7 +23,7 @@ def carregar_dados():
 
     return df
 
-
+st.set_page_config(layout='wide')
 dados = carregar_dados()
 
 dados['ano_mes'] = dados['Data Cad.'].dt.to_period(
